@@ -65,6 +65,8 @@ Every 20 seconds, a random chaos event triggers:
    ```
 3. Open `http://localhost:8000` in your browser
 
+**Note**: The game requires internet access to load Three.js from CDN. For offline use or Cordova builds, download Three.js r128 and update the script tag in index.html to point to the local file.
+
 ### Controls
 - **Movement**: WASD or Arrow Keys (or touch joystick on mobile)
 - **Dash**: Spacebar (or touch dash button)
