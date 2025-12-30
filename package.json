@@ -1,0 +1,24 @@
+{
+  "name": "munchies-chaos-edition",
+  "version": "1.0.0",
+  "description": "A Party Brawler game using Three.js - Optimized for Cordova",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "cordova-build-android": "cordova build android",
+    "cordova-run-android": "cordova run android"
+  },
+  "keywords": [
+    "game",
+    "threejs",
+    "party-brawler",
+    "cordova",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "^12.0.0"
+  }
+}
