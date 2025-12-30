@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.munchies.chaosedition" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MUNCHIES Chaos Edition</name>
+    <description>
+        A Party Brawler game using Three.js with chaos events and collectibles
+    </description>
+    <author email="dev@example.com" href="https://example.com">
+        Munchies Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="Orientation" value="landscape" />
+        <preference name="Fullscreen" value="true" />
+    </platform>
+    
+    <preference name="Orientation" value="landscape" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff1a1a2e" />
+    
+    <engine name="android" spec="^12.0.0" />
+</widget>
